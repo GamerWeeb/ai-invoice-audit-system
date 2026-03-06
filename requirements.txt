@@ -1,0 +1,8 @@
+poppler-utils
+tesseract-ocr
+streamlit
+pandas
+pdf2image
+pytesseract
+pillow
+numpy
