@@ -1,0 +1,10 @@
+def check_surcharges(invoice, allowed):
+
+    flags = []
+
+    for charge in invoice["surcharges"]:
+
+        if charge not in allowed:
+            flags.append(charge)
+
+    return flags
